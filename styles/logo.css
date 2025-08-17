@@ -19,7 +19,9 @@
   font-weight: <weight>;
   font-style: normal;
 }
-
+body{
+  background-color: #eef2f8;
+}
 
 /*nav styles*/
 
@@ -132,7 +134,7 @@ main{
   background-color: #d4d2f8;
   border-radius: 24px;
   padding: 40px 20px;
-  width:1140px;
+  max-width:1140px;
 
 }
 .user-subtitle{
@@ -158,6 +160,9 @@ main{
   justify-content: center;
   margin:0 auto;
   padding:71px 350px 71px  150px;
+  background-color: #FFFFFF;
+  max-width: 1140px;
+  margin-top: 133px;
 }
 .focus-title{
   font-size: 50px;
@@ -185,12 +190,12 @@ main{
     padding:12px 36px;
     margin-left: 350px;
 }/*user say*/
-.users-feedback{
-  background-color:#f7f4f4;
+.users-review{
+  
   width: 1170px;
   height: 340px;
 }
-.user-feedback-title{
+.user-review-title{
   text-align: center;
   font-size: 42px;
   font-weight: bold;
@@ -219,7 +224,98 @@ main{
  
   display: block;
   width:100%;
+  padding: 0px;
    
+}
+/*get in touch*/
+.get-in-touch{
+  margin: 0 auto;
+  max-width: 1140px;
+}
+.form{
+  display:flex;
+  background-color:#eef2fa;
+  margin:96px,150px,14px,150px;
+  
+  gap:70px;
+  width:1140px;
+  padding: 100px;
+  margin-left: 20px;
+  text-align: left;
+  
+  
+}
+.form-heading{
+  color: #000000;
+  font-size: 97px;
+  font-weight: bold;
+  width: 528px;
+}
+
+.form-items input[type="Email"],input[type="text"],textarea ,input[type="button"]{
+  display: inline-block;
+   border-radius: 10px;
+   width:497px;
+   margin-top: 10px;
+   border: 1px solid #e5e3e3;
+   padding: 15px;
+   margin: 10px;
+}
+.form-items{
+width:497px;
+margin-top: 70px;
+height: 490px;
+border-radius: 10px;
+flex-direction: column;
+gap:15px
+padding-left: 0px;
+margin-left: 0px;
+
+
+}
+.btn-touch{
+  width:540px;
+  border-radius: 10px;
+  margin-top: 10px;
+  
+}
+/*footer*/
+footer{
+  background-color: white;
+  text-align: center;
+  
+ 
+}
+.footer-container{
+  max-width: 531px;
+  height: 428px;
+ padding-top: 105px;
+ padding-left: 550px;
+ margin-left: 100px;
+  
+}
+ul li{
+   list-style: none;
+   
+}
+.footer-list{
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 48px;
+  margin-bottom: 48px;
+  padding-top: none;
+  color: #8987A1;
+}
+.footer-title{
+  font-size: 120px;
+  color:#4E47FF;
+  font-weight: 900;
+  
+}
+.footer-subtitle{
+  text-align: center;
+  color: #8987A1;
+  
 }
 
 
